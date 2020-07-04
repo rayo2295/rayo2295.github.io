@@ -1,0 +1,14 @@
+.star-checked{
+    color: gold;
+}
+.idiomas{
+    width: 50.5%;
+    float: left;
+}
+/* Fuerza a que el navegador tenga en cuenta las imagenes en background en el momento de imprimir*/
+@media print {
+    * {
+        -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+        color-adjust: exact !important;  /*Firefox*/
+      }
+    }
